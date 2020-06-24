@@ -1,0 +1,138 @@
+.warning-message {
+    color: blue;
+}
+
+.dropDownSelection {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.selectBox {
+    width: 10rem;
+    height: 1.5rem;
+    border: 2px solid grey;
+    margin-bottom: 5px;
+
+}
+
+.gaugeContainer {
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+.gauge {
+    background-color: red;
+    margin: 2px;
+    /* height:10rem; */
+}
+
+
+.tempreatureSensorsContainer {
+    display: flex;
+    background-color: rgb(177, 205, 50);
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.buttonContainer {
+    display: flex;
+    background-color: yellow;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    height: 7rem;
+}
+
+.buttonContainerMain {
+    display: flex;
+    /* background-color: blueviolet; */
+    padding: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+    height: 7rem;
+    width: 20rem;
+}
+
+.buttonContainerExtra {
+    /* background-color: blueviolet; */
+    padding: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+    height: 7rem;
+    width: 20rem;
+}
+.first{
+    /* background-color: blueviolet; */
+    display: flex;
+    height: 2rem;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.second{
+    /* background-color: blueviolet; */
+    display: flex;
+    height: 2rem;
+}
+.consoleBoxContainer {
+    background-color: rgb(182, 238, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.consoleBox {
+    align-self: center;
+    /* background-color: aqua; */
+    margin: 2px;
+    color: black;
+    height: 2rem;
+    display: flex;
+    width: 40rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* margin-right: auto; */
+}
+
+.extraButtonContainer {
+    background-color: lightcoral;
+    display: flex;
+    height: 5rem;
+    padding: 5px;
+    align-items: center;
+}
+
+.buttonBig {
+    /* background-color: rgb(183, 159, 235); */
+    width: 8rem;
+    height: 5rem;
+    border-radius: 10%;
+}
+
+.button {
+    background-color: rgb(183, 159, 235);
+    width: 6rem;
+    height: 3rem;
+    border-radius: 10%;
+}
+
+.buttonW {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 10%;
+}

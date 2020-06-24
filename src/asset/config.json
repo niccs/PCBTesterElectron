@@ -1,0 +1,42 @@
+{
+  "variants":["15WLED","30WLED"],
+  "gauge_data":[{ "select_name": "15WLED",
+    "data": [
+      {
+        "name": "Battery Voltage",
+        "min": "10",
+        "max": "100"
+      },
+      {
+        "name": "Panel Voltage",
+        "min": "20",
+        "max": "80"
+      },
+      {
+        "name": "Load Voltage",
+        "min": "10",
+        "max": "120"
+      }
+    ]    
+  },
+  { "select_name": "30WLED",
+    "data": [
+      {
+        "name": "Battery Voltage",
+        "min": "20",
+        "max": "100"
+      },
+      {
+        "name": "Panel Voltage",
+        "min": "25",
+        "max": "80"
+      },
+      {
+        "name": "Load Voltage",
+        "min": "0",
+        "max": "100"
+      }
+    ]    
+  }
+]
+}
