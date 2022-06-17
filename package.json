@@ -5,7 +5,7 @@
   "homepage": "./",
   "dependencies": {
     "chart.js": "^2.7.3",
-    "electron": "^3.0.10",
+    "electron": "^15.5.5",
     "electron-chartjs": "^1.0.0",
     "justgage": "^1.2.2",
     "react": "^16.6.3",
